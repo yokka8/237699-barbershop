@@ -15,16 +15,11 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-h2 {
+.name {
   font-size: 30px;
 }
 
-h3 {
+.feature-name {
   font-size: 24px;
-}
-s
-p,
-ul,
-a {
-  font-size: 14px;
+  font-weight: bold;
 }
