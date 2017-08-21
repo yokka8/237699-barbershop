@@ -5,6 +5,16 @@ body {
   font-weight: normal;
   font-family: "PT Sans Narrow", "PT Sans", "Arial" sans-serif;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 h2 {
   font-size: 30px;
 }
