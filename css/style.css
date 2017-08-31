@@ -202,7 +202,7 @@ input[type="radio"].visually-hidden {
   text-align: center;
 }
 
-.feature-item h3 {
+.feature-name {
   position: relative;
   
   margin: 0;
@@ -212,7 +212,7 @@ input[type="radio"].visually-hidden {
   line-height: 42px;
 }
 
-.feature-item h3::after {
+.feature-name::after {
   content: "";
 
   position: absolute;
@@ -228,7 +228,7 @@ input[type="radio"].visually-hidden {
   transform: rotate(45deg);
 }
 
-.feature-item p {
+.feature-text {
   margin: 0 10px;
 }
 
@@ -248,7 +248,7 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat, repeat;
 }
 
-.index-columns h2 {
+.name {
   margin: 0;
   margin-bottom: 25px;
   
